@@ -90,7 +90,7 @@ export default class App extends React.Component {
         
  
           <label htmlFor="web-worker">
-            
+
           <p className='text-center'><h1 className='mt-4'>Image File Compressor</h1>  </p>
             {webWorker.progress && <span>{webWorker.progress} %</span>}
             
@@ -106,7 +106,7 @@ export default class App extends React.Component {
           </label>
           <p>
             {webWorker.inputSize && (
-              <span> <b>Source image size:</b> <Badge variant="primary">{' '}{webWorker.inputSize} mb </Badge></span>
+              <span> <b>Source image size:</b> <Badge variant="primary">{''}{webWorker.inputSize} mb </Badge></span>
             )}
             <br></br>
             <br></br>
