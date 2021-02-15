@@ -90,6 +90,7 @@ export default class App extends React.Component {
         
  
           <label htmlFor="web-worker">
+            
           <p className='text-center'><h1 className='mt-4'>Image File Compressor</h1>  </p>
             {webWorker.progress && <span>{webWorker.progress} %</span>}
             
